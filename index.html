@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Giải Phương Trình Bậc 1</title>
+</head>
+<body>
+	<div class="top"> 
+		<button onclick="a()">Nhập Giá Trị A</button>
+		<button onclick="b()">Nhập Giá Trị B</button>
+		<button onclick="kq()">In Kết Quả </button>
+	</div>
+	<script type="text/javascript">
+		var a,b,num
+		function a(){
+			a = prompt('Nhập a')
+		}
+		function b(){
+			b = prompt('Nhập b')
+		}
+		function kq(){
+			num = a+b;
+			alert('Tong cua a và b là:'+ num)
+		}
+	</script>
+</body>
+</html>
